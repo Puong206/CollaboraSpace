@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak Kami - CollaboraSpace</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="contact-styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <img src="src/img/CollaboraSpace.png" alt="Logo Aplikasi" height="30">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Beranda</a>
+            <a href="features.html">Fitur</a>
+            <a href="contact.html" class="active">Kontak</a>
+            <a href="about.html">Tentang</a>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <h1>Hubungi Kami</h1>
+        <p>Kami siap membantu Anda dengan semua pertanyaan tentang CollaboraSpace.</p>
+    </div>
+
+    <main>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h2 class="info-heading">Informasi Kontak</h2>
+            
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info-text">
+                Jl. Teknologi Informasi No. 123<br>
+                Jakarta Selatan, 12180
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="info-text">
+                +62 21 5678 9012<br>
+                +62 812 3456 7890
+              </div>
+            </div>
+
+            <div class="info-item">
+                <div class="info-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info-text">
+                  info@collaboraspace.id<br>
+                  support@collaboraspace.id
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form">
+                <h2 class="form-heading">Formulir Pendaftaran</h2>
+                <p class="form-subheading">Isi formulir di bawah ini untuk mendaftar dan memulai pembelajaran Anda.</p>
+                
+                <!-- Form pendaftaran user yang lebih sederhana -->
+                <form id="contact-form">
+                  <div class="form-group">
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" name="nama" class="form-control" required>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="minat">Minat Belajar</label>
+                    <input type="minat" id="minat" name="minat" class="form-control" required>
+                  </div>
+
+                  <button type="submit" class="form-button">Daftar Sekarang</button>
+          </form>
+        </div>
+      </div>
+    </main>
+</body>
+</html>
